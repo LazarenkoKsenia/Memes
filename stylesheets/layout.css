@@ -98,11 +98,11 @@ width: 45%;
 position: absolute;
 margin-bottom: 120px;
 margin-top: 0%;
-animation: str 3.5s ease infinite;
+animation: str 2s ease infinite;
 }
 @keyframes str {
   0%{ margin-left: 0px}
-  100%{margin-left: 100%}
+  100%{margin-left: 55%}
 }
 
 .strelka2{
@@ -110,10 +110,10 @@ position: absolute;
 width: 45%;
 margin-top: 25%;
  margin-bottom: 120px;
- animation: str2 3.5s ease infinite;
+ animation: str2 2s ease infinite;
 }
 @keyframes str2 {
-  0%{ margin-left: 100%}
+  0%{ margin-left: 55%}
   100%{margin-left: 0px}
 }
 
@@ -127,5 +127,5 @@ margin-top: 50%;
 
 @keyframes str3 {
   0%{ margin-left: 0px}
-  100%{margin-left: 100%}
+  100%{margin-left: 55%}
 }
