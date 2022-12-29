@@ -1,0 +1,131 @@
+
+body{
+  width: 100%;
+  background-color: black;
+}
+
+
+/*этот код наверное немного лучше прошлого, но все равно еще недолепленный
+я очень постараюсь за каникулы разобраться с ним
+спасибо, что просмотрели его
+с наступающим новым годом!
+.
+┈┈┈┈┈┈┈┈☆┈┈┈┈┈┈┈
+┈┈┈┈┈┈┈╱┊╲┈┈┈┈┈┈┈
+┈┈┈┈┈┈╱┊┊┊╲┈┈┈┈┈┈
+┈┈┈┈┈╱┊┊┊┊┊╲┈┈┈┈┈
+┈┈┈┈┈▔▔▔▉▔▔▔┈┈┈┈┈
+*/
+
+
+/*подолжка и анимация мемеса*/
+
+.backg1{
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.backg2{
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  opacity: 1;
+  animation: bac 3s ease-in-out infinite;
+}
+
+@keyframes bac {
+  100% {opacity: 1;}
+  50% {opacity: 0;}
+  0% {opacity: 1;}
+}
+
+/*надпись и анимация*/
+
+h1{
+  position: relative;
+  color: #FFFFFF;
+  font-family: Sonic Filed;
+  position: relative;
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 80px;
+  margin-top:280px;
+  animation: anit 4s infinite;
+}
+
+@keyframes anit {
+  10% {color: #FFFFFF; font-size: 100px}
+  50% {color: #B3B3B3;font-size: 110px}
+  100% {color: #FFFFFF;font-size: 100px}
+}
+
+
+h2{
+  font-family: Sonic Outline;
+  color: #FFFFFF;
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+#rest {width: 50%;
+  height: 200px;
+  outline-color:white;
+  background:#000000;
+  outline-width:17px;
+  outline-style: solid;
+  position: relative;
+  left: 25%;
+  padding-top: 5%;
+  margin-bottom: 200px;
+  transition: 1s lineare;
+}
+
+#rest:hover {
+   color: #000000;
+   background: #5A5A5A;
+   outline-color: #000000;
+}
+
+/*анимация стрелок */
+
+
+.strelka1{
+width: 45%;
+position: absolute;
+margin-bottom: 120px;
+margin-top: 0%;
+animation: str 3.5s ease infinite;
+}
+@keyframes str {
+  0%{ margin-left: 0px}
+  100%{margin-left: 100%}
+}
+
+.strelka2{
+position: absolute;
+width: 45%;
+margin-top: 25%;
+ margin-bottom: 120px;
+ animation: str2 3.5s ease infinite;
+}
+@keyframes str2 {
+  0%{ margin-left: 100%}
+  100%{margin-left: 0px}
+}
+
+.strelka3{
+position: absolute;
+width: 45%;
+margin-top: 50%;
+ margin-bottom: 120px;
+ animation: str3 2s ease infinite;
+}
+
+@keyframes str3 {
+  0%{ margin-left: 0px}
+  100%{margin-left: 100%}
+}

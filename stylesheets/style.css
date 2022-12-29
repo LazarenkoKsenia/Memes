@@ -1,0 +1,10 @@
+@import url('reset.css');
+@import url('layout.css');
+@font-face {
+  font-family: "Sonic Outline";
+  src: url('fonts/Sonic 1 Title Screen Outline.ttf');
+}
+@font-face {
+  font-family: "Sonic Filed";
+  src: url('fonts/Sonic 1 Title Screen Filed.ttf');
+}
